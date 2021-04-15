@@ -1,6 +1,4 @@
 specVersion: 0.0.2
-description: Balancer is a non-custodial portfolio manager, liquidity provider, and price sensor.
-repository: https://github.com/balancer-labs/balancer-subgraph
 schema:
   file: ./schema.graphql
 dataSources:
@@ -8,7 +6,7 @@ dataSources:
     name: Factory
     network: kovan
     source:
-      address: "0x8f7F78080219d4066A8036ccD30D588B416a40DB"
+      address: "0x0728eA2885818759c4adD023C4B234D3e3fDf209"
       abi: Factory
       startBlock: 16337546
     mapping:
